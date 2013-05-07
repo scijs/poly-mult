@@ -1,0 +1,30 @@
+{
+  "name": "poly-mult",
+  "version": "0.0.0",
+  "description": "Multiplies polynomials by brute force",
+  "main": "mult.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.4.2"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/poly-mult.git"
+  },
+  "keywords": [
+    "polynomial",
+    "multiply",
+    "brute",
+    "force"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "5d3604c8052244718196dcc1339df65955b92ef5"
+}

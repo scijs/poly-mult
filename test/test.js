@@ -1,6 +1,6 @@
 var mult = require("../mult.js")
 
-require("tap").test("multiply", function(t) {
+require("tape")("multiply", function(t) {
 
   var a = [1, 0, 0, 2]
   var b = [1, 3]

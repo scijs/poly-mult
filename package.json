@@ -1,6 +1,6 @@
 {
   "name": "poly-mult",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Multiplies polynomials by brute force",
   "main": "mult.js",
   "directories": {
@@ -8,16 +8,17 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tap": "~0.4.2"
+    "tape": "^4.0.0"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikolalysenko/poly-mult.git"
+    "url": "git://github.com/scijs/poly-mult.git"
   },
   "keywords": [
+    "scijs",
     "polynomial",
     "multiply",
     "brute",
@@ -26,5 +27,8 @@
   "author": "Mikola Lysenko",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "5d3604c8052244718196dcc1339df65955b92ef5"
+  "gitHead": "5d3604c8052244718196dcc1339df65955b92ef5",
+  "bugs": {
+    "url": "https://github.com/scijs/poly-mult/issues"
+  }
 }
